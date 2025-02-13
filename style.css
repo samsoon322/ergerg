@@ -1,0 +1,108 @@
+/* style.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box; /* Чтобы padding не увеличивал ширину блока */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.center-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #00337a;
+}
+
+a:hover {
+    color: #4D62FF;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 400px;
+    height: auto; /* Сохранение пропорций */
+}
+
+table {
+    border: 3px solid #e67e22;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.video-container {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
